@@ -1,0 +1,9 @@
+/Users/travisaucoin/Documents/Github/KafkaProducerConsumer/KafkaProducer/src/main/java/com/github/tnaucoin/kafka/producer/enums/DesignType.java
+/Users/travisaucoin/Documents/Github/KafkaProducerConsumer/KafkaProducer/src/main/java/com/github/tnaucoin/kafka/producer/enums/ProductType.java
+/Users/travisaucoin/Documents/Github/KafkaProducerConsumer/KafkaProducer/src/main/java/com/github/tnaucoin/kafka/producer/model/User.java
+/Users/travisaucoin/Documents/Github/KafkaProducerConsumer/KafkaProducer/src/main/java/com/github/tnaucoin/kafka/producer/EventGenerator.java
+/Users/travisaucoin/Documents/Github/KafkaProducerConsumer/KafkaProducer/src/main/java/com/github/tnaucoin/kafka/producer/model/Event.java
+/Users/travisaucoin/Documents/Github/KafkaProducerConsumer/KafkaProducer/src/main/java/com/github/tnaucoin/kafka/producer/Main.java
+/Users/travisaucoin/Documents/Github/KafkaProducerConsumer/KafkaProducer/src/main/java/com/github/tnaucoin/kafka/producer/enums/UserId.java
+/Users/travisaucoin/Documents/Github/KafkaProducerConsumer/KafkaProducer/src/main/java/com/github/tnaucoin/kafka/producer/model/Product.java
+/Users/travisaucoin/Documents/Github/KafkaProducerConsumer/KafkaProducer/src/main/java/com/github/tnaucoin/kafka/producer/enums/Color.java
