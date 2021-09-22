@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2880d610-2900-4790-92ef-48dba712b265" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/KafkaProducer/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KafkaConsumer/src/main/java/com/github/tnaucoin/kafka/consumer/SuggestionEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KafkaConsumer/src/main/java/com/github/tnaucoin/kafka/consumer/enums/UserId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KafkaConsumer/src/main/java/com/github/tnaucoin/kafka/consumer/model/PreferredProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KafkaConsumer/src/main/java/com/github/tnaucoin/kafka/consumer/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KafkaConsumer/src/main/java/com/github/tnaucoin/kafka/consumer/service/UserDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KafkaProducer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaProducer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KafkaProducer/src/main/java/com/github/tnaucoin/kafka/producer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaProducer/src/main/java/com/github/tnaucoin/kafka/producer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaConsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaConsumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaConsumer/src/main/java/com/github/tnaucoin/kafka/consumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaConsumer/src/main/java/com/github/tnaucoin/kafka/consumer/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +47,30 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/KafkaProducer/src/main/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.tnaucoin.kafka.consumer.enums" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.tnaucoin.kafka.consumer.Main" />
+      <module name="KafkaConsumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.tnaucoin.kafka.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.tnaucoin.kafka.producer.Main" />
       <module name="KafkaProducer" />
@@ -66,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
