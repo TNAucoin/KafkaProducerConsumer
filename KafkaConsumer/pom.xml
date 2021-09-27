@@ -15,6 +15,11 @@
 
     <dependencies>
         <!--  Kafka Clients  -->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>2.2.0</version>
+        </dependency>
         <!--  Helper Dependeinces  -->
         <dependency>
             <groupId>org.slf4j</groupId>
