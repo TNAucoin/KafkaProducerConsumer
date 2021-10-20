@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2880d610-2900-4790-92ef-48dba712b265" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/schemas/user_schema.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KafkaConsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaConsumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KafkaConsumer/src/main/java/com/github/tnaucoin/kafka/consumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaConsumer/src/main/java/com/github/tnaucoin/kafka/consumer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaProducer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaProducer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaProducer/src/main/java/com/github/tnaucoin/kafka/producer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaProducer/src/main/java/com/github/tnaucoin/kafka/producer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaProducer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaProducer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -6,21 +6,29 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.util.Properties;
 
 import static org.apache.kafka.common.utils.Utils.sleep;
 
 @Slf4j
 public class Main {
-    public static void main(String[] args) throws InterruptedException{
+    public static void main(String[] args) throws InterruptedException, UnknownHostException {
         EventGenerator eventGenerator = new EventGenerator();
 
-        Properties props = new Properties();
-        props.put("bootstrap.servers","localhost:9093,localhost:9094");
-        props.put("key.serializer","org.apache.kafka.common.serialization.StringSerializer");
-        props.put("value.serializer","org.apache.kafka.common.serialization.StringSerializer");
+//        Properties props = new Properties();
+//        props.put("bootstrap.servers","localhost:9093,localhost:9094");
+//        props.put("key.serializer","org.apache.kafka.common.serialization.StringSerializer");
+//        props.put("value.serializer","org.apache.kafka.common.serialization.StringSerializer");
+        Properties config = new Properties();
+        config.put("client.id", InetAddress.getLocalHost().getHostName());
+        config.put("bootstrap.servers", "localhost:9092");
+        config.put("acks", "all");
+        config.put("key.serializer","org.apache.kafka.common.serialization.StringSerializer");
+        config.put("value.serializer","org.apache.kafka.common.serialization.StringSerializer");
 
-        Producer<String,String> producer = new KafkaProducer<String, String>(props);
+        Producer<String,String> producer = new KafkaProducer<String, String>(config);
 
         for(int i = 0; i <= 10; i++){
             log.info("Generating Event #" + i);

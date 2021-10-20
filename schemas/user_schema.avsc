@@ -1,0 +1,22 @@
+{
+    "type": "record",
+    "namespace": "com.github.tnaucoin.kafka.model",
+    "name": "User",
+    "fields": [
+        {
+            "name":"userId",
+            "type":"string"
+        },
+        {
+            "name":"username",
+            "type":"string"
+        },
+        {
+            "name": "dateOfBirth",
+            "type":{
+                "type": "int",
+                "logicalType":"date"
+            }
+        }
+    ]
+}
